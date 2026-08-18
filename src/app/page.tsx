@@ -7,7 +7,6 @@ import Footer from "@/components/Footer";
 import TemplateEnquiryModal from "@/components/TemplateEnquiryModal";
 
 import {
-  ArrowRight,
   Building2,
   Calendar,
   CalendarCheck,
@@ -198,7 +197,6 @@ export default function Page() {
                 >
                   <Calendar size={17} />
                   Request a Cleaning
-                  <ArrowRight size={16} />
                 </a>
 
                 <a
@@ -357,10 +355,9 @@ export default function Page() {
 
                 <a
                   href="#contact"
-                  className="flex w-full items-center justify-center gap-2 rounded-xl bg-green-600 py-3.5 text-sm font-black text-white transition hover:bg-green-700"
+                  className="flex w-full items-center justify-center rounded-xl bg-green-600 py-3.5 text-sm font-black text-white transition hover:bg-green-700"
                 >
                   Continue Enquiry
-                  <ArrowRight size={16} />
                 </a>
               </div>
 
@@ -425,9 +422,9 @@ export default function Page() {
 
                   <a
                     href="#contact"
-                    className="mt-4 inline-flex items-center gap-1 text-[11px] font-black text-green-600 transition group-hover:gap-2 sm:text-sm"
+                    className="mt-4 inline-flex items-center text-[11px] font-black text-green-600 transition sm:text-sm"
                   >
-                    Ask About This Service →
+                    Ask About This Service
                   </a>
                 </article>
               );
@@ -779,10 +776,9 @@ export default function Page() {
 
             <button
               type="button"
-              className="mt-4 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-green-600 px-6 text-sm font-black text-white transition hover:bg-green-700"
+              className="mt-4 inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-green-600 px-6 text-sm font-black text-white transition hover:bg-green-700"
             >
               Send Quote Request
-              <ArrowRight size={16} />
             </button>
 
             <p className="mt-3 text-center text-[10px] text-slate-400">
