@@ -106,48 +106,6 @@ export default function Page() {
     <main className="min-h-screen overflow-x-hidden bg-white text-[#071936]">
       <Header />
 
-      {/* =====================================================
-          AXIS STUDIO DEMO NOTICE
-      ====================================================== */}
-      <div className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-2.5 sm:px-6">
-          {/* MOBILE */}
-          <div className="flex items-center justify-between gap-3 sm:hidden">
-            <span className="shrink-0 rounded-full bg-[#071936] px-2.5 py-1 text-[7px] font-black uppercase tracking-[0.14em] text-white">
-              Axis Studio Demo
-            </span>
-
-            <button
-              type="button"
-              onClick={() => setTemplateModalOpen(true)}
-              className="inline-flex min-h-8 items-center justify-center rounded-lg border border-green-600/20 bg-green-50 px-3 text-[8px] font-black text-green-700 transition hover:bg-green-100"
-            >
-              Start With This Design →
-            </button>
-          </div>
-
-          {/* DESKTOP */}
-          <div className="hidden items-center justify-between gap-5 sm:flex">
-            <div className="flex items-center gap-3">
-              <span className="rounded-full bg-[#071936] px-3 py-1 text-[9px] font-black uppercase tracking-[0.14em] text-white">
-                Axis Studio Demo
-              </span>
-
-              <p className="text-xs font-medium text-slate-500">
-                Sample cleaning website content for design preview only.
-              </p>
-            </div>
-
-            <button
-              type="button"
-              onClick={() => setTemplateModalOpen(true)}
-              className="rounded-lg border border-green-600/20 bg-white px-4 py-2 text-xs font-bold text-green-700 transition hover:bg-green-50"
-            >
-              Start With This Design →
-            </button>
-          </div>
-        </div>
-      </div>
 
       {/* =====================================================
           HERO
